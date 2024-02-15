@@ -1,0 +1,69 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+
+}
+
+.container {
+    margin-top: 100px;
+    background-color: white;
+    width: 740px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+}
+
+img {
+    width: 650px;
+    border-radius: 30px;
+}
+
+.pink  {
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+}
+
+.time {
+    color: hslhslhsl(14, 45%, 36%);
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 100;
+}
+
+p {
+    color: hsl(24, 5%, 18%);
+}
+
+li {
+    color: hsl(24, 5%, 18%);
+    margin-top: 10px;
+}
+
+ol {
+    counter-reset: custom-counter;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ol > li {
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 10px;
+    counter-increment: custom-counter;
+}
+
+ol > li::before {
+    content: counter(custom-counter) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    padding: 0px 10px;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+}
