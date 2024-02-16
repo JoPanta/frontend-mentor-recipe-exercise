@@ -6,7 +6,7 @@ This is a solution to the Recipe page challenge on Frontend Mentor. Frontend Men
 
 ![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
 
-Screenshots
+<h2>Screenshots</h2>
 
 ![Screenshot 2024-02-16 213137](https://github.com/JoPanta/frontend-mentor-recipe-exercise/assets/108143759/0ab59604-c649-4772-a59e-112d5652a1f8)
 
