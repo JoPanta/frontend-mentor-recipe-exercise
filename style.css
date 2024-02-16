@@ -5,8 +5,9 @@ body {
 
 .container {
     margin-top: 100px;
+    margin-bottom: 100px;
     background-color: white;
-    width: 740px;
+    width: 660px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -18,16 +19,17 @@ body {
 img {
     width: 650px;
     border-radius: 30px;
+    display: block;
+    margin: auto;
 }
 
 .pink  {
     background-color: hsl(330, 100%, 98%);
     padding: 15px;
+    border-radius: 20px;
 }
 
-.time {
-    color: hslhslhsl(14, 45%, 36%);
-}
+
 
 h1 {
     font-family: "Young Serif", serif;
@@ -41,6 +43,9 @@ p {
 li {
     color: hsl(24, 5%, 18%);
     margin-top: 10px;
+    text-indent: 15px;
+    position: relative;
+    left: -10px;
 }
 
 ol {
@@ -66,4 +71,66 @@ ol > li::before {
     padding: 0px 10px;
     font-weight: bold;
     color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+hr {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    margin: 30px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 30px;
+}
+
+.table_grid {
+    margin: 10px 0;
+}
+
+.values {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+b {
+    color:  hsl(30, 10%, 34%);
+}
+
+.time {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 660px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        margin: 0 20px 20px 0;
+        padding: 0;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .phone {
+        padding: 20px 40px;
+    }
 }
